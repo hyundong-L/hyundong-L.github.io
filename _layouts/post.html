@@ -22,6 +22,27 @@ tail_includes:
         {% include datetime.html date=page.date tooltip=true lang=lang %}
       </span>
 
+      <!-- author -->
+      <div>
+        {% capture author_name %}{{ page.author.name | default: site.social.name }}{% endcapture %}
+        {% assign author_link = nil %}
+    
+        {% if page.author.link %}
+          {% assign author_link = page.author.link %}
+        {% elsif author_name == site.social.name %}
+          {% assign author_link = site.social.links[0] %}
+        {% endif %}
+    
+        {{ site.data.locales[lang].post.written_by }}
+        <em>
+          {% if author_link %}
+            <a href="{{ author_link }}">{{ author_name }}</a>
+          {% else %}
+            {{ author_name }}
+          {% endif %}
+        </em>
+      </div>
+
       <!-- lastmod date -->
       {% if page.last_modified_at and page.last_modified_at != page.date %}
         <span>
@@ -50,13 +71,13 @@ tail_includes:
       <div class="d-flex justify-content-between">
         <!-- author(s) -->
         <span>
-          {% if page.author %}
+          <!-- {% if page.author %}
             {% assign authors = page.author %}
           {% elsif page.authors %}
             {% assign authors = page.authors %}
           {% endif %}
 
-          {{ site.data.locales[lang].post.written_by }}
+          {{ site.data.locales[lang].post.written_by }} -->
 
           <em>
             {% if authors %}
@@ -119,7 +140,7 @@ tail_includes:
         d-flex justify-content-between align-items-center mt-5 pb-2
       "
     >
-      <div class="license-wrapper">
+      <!-- <div class="license-wrapper">
         {% if site.data.locales[lang].copyright.license.template %}
           {% capture _replacement %}
         <a href="{{ site.data.locales[lang].copyright.license.link }}">
@@ -129,7 +150,7 @@ tail_includes:
 
           {{ site.data.locales[lang].copyright.license.template | replace: ':LICENSE_NAME', _replacement }}
         {% endif %}
-      </div>
+      </div> -->
 
       {% include post-sharing.html lang=lang %}
     </div>
