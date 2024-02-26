@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "스프링 부트 실습 - 1"
+title: "스프링 부트 - 1.1"
 author: "Hyundong Lee"
 categories: Spring
 tags: [Github, Blog, Develop]
@@ -76,7 +76,7 @@ tags: [Github, Blog, Develop]
     <br/><br/>
 
 2. hello.html 파일에 아래 코드 작성
-    ```
+    ```html
     <!DOCTYPE html>  
     <html lang="en">  
     <head>  
