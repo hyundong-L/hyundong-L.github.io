@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "스프링 부트 - 1.2"
+title: "1.2 - 스프링 부트 시작하기"
 author: "Hyundong Lee"
-categories: Spring
+categories: Spring_Boot
 tags: [Github, Blog, Develop]
 ---
 

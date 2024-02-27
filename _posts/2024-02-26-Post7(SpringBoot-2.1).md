@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "스프링 부트 - 2.1"
+title: "2.1 - MVC 패턴 이해와 실습"
 author: "Hyundong Lee"
-categories: Spring
+categories: Spring_Boot
 tags: [Github, Blog, Develop]
 ---
 
