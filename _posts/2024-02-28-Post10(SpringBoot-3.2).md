@@ -34,7 +34,7 @@ date: 2024-02-28 01:20:10 +0900
 	1. main -> resources -> application.properties로 가서 아래 명령어 추가
 		* `spring.h2.console.enabled=true`
 
-2. 서버를 시작 후 http://localhost:8080/h2-console 로 접속
+2. 서버를 시작 후 <http://localhost:8080/h2-console> 로 접속
 
 3. 인텔리제이의 하단 실행창에서 `ctrl + f`를 누른 후 `jdbc:h2`를 검색했을 때 2번째로 나오는 따옴표 안의 내용을 모두 복사
 	* ex) jdbc:h2:mem:22d86939-4e63-4199-92a1-a40a835ec88a
@@ -51,7 +51,7 @@ date: 2024-02-28 01:20:10 +0900
 2. Run을 눌러 실행하면 빈 테이블이 출력된다.
 	* H2 DB는 입출력을 메모리에서 돌리기 때문에 서버를 재시작하면 저장된 내용이 다 날아간다.
 
-3. 웹 브라우저에 새 탭을 추가한 후, http://localhost:8080/articles/new 로 접속, 내용을 입력, 전송하고 다시 DB 창으로 돌아오자.
+3. 웹 브라우저에 새 탭을 추가한 후, <http://localhost:8080/articles/new> 로 접속, 내용을 입력, 전송하고 다시 DB 창으로 돌아오자.
 
 4. 다시 Run을 누르면 데이터가 잘 저장된 것을 확인할 수 있다.
 <br/><br/>

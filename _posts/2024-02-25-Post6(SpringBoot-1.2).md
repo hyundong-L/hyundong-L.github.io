@@ -50,7 +50,7 @@ tags: [Github, Blog, Develop]
 <br/><br/>
 
 #### 정리
-1. 웹 브라우저에서 http://localhost:8080/hello.html 로 접속하면 서버로 hello.html을 달라는 요청이 간다.
+1. 웹 브라우저에서 <http://localhost:8080/hello.html> 로 접속하면 서버로 hello.html을 달라는 요청이 간다.
 
 2. 서버는 요청을 받고, html 파일을 찾는다.
 	* 찾으면 html 코드를 반환

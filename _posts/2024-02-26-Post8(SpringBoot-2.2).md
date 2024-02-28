@@ -22,7 +22,7 @@ tags: [Github, Blog, Develop]
 <br/><br/>
 
 #### "/hi" 페이지에 적용
-1. 부트스트랩 (https://getbootstrap.com) 으로 접속
+1. 부트스트랩 <https://getbootstrap.com> 으로 접속
 	* 웹 페이지를 쉽게 만들 수 있게, 레이아웃, 버튼 등의 디자인을 미리 만들어 놓은 사이트
 <br/><br/>
 
@@ -61,7 +61,7 @@ tags: [Github, Blog, Develop]
     </div>
     ```
 
-9. 다 작성했으면 ~Application 파일을 실행시키고, http://localhost:8080/hi 로 접속해보자
+9. 다 작성했으면 ~Application 파일을 실행시키고, <http://localhost:8080/hi> 로 접속해보자
 <br/><br/>
 
 * 전체 코드

@@ -94,7 +94,7 @@ tags: [Github, Blog, Develop]
     }
     ```
 
-4. 이제 ~Application 파일을 실행시키고, http://localhost:8080/hi 로 접속하면 페이지가 잘 뜨는 것을 확인할 수 있다.
+4. 이제 ~Application 파일을 실행시키고, <http://localhost:8080/hi> 로 접속하면 페이지가 잘 뜨는 것을 확인할 수 있다.
 	* 이때 웹 페이지에 글자가 아닌 물음표로 나온다면 application.properties 파일에 아래 명령 추가하기
 		* `server.servlet.encoding.force-response=true`
 <br/><br/>
@@ -158,7 +158,7 @@ tags: [Github, Blog, Develop]
     }
     ```
 
-3. 저장 후 ~Application을 실행 후 http://localhost:8080/hi 로 접속하면 내가 넣은 값과 작성한 글이 출력된다.
+3. 저장 후 ~Application을 실행 후 <http://localhost:8080/hi> 로 접속하면 내가 넣은 값과 작성한 글이 출력된다.
 
 4. model의 값을 바꿔 다시 실행하면 값이 바뀌어 출력된다.
 <br/><br/>

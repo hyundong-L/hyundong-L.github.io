@@ -87,7 +87,7 @@ data: 2024-02-28 01:10:01 +0900
     * 뷰 파일을 template의 articles 디렉토리 안에 만들었기 때문에 경로까지 반환해준다.
 <br/><br/>
 
-3. ~Application 파일을 실행시키고, http://localhost:8080/articles/new 로 접속해보자.
+3. ~Application 파일을 실행시키고, <http://localhost:8080/articles/new> 로 접속해보자.
 <br/><br/>
 
 #### 3. 뷰 파일에 css 적용하기
@@ -257,7 +257,7 @@ public class ArticleController {
     ...
     ```
 
-2. 서버를 재시작하여 http://localhost:8080/articles/new 로 접속하여 내용을 채운 뒤 버튼을 누르자
+2. 서버를 재시작하여 <http://localhost:8080/articles/new> 로 접속하여 내용을 채운 뒤 버튼을 누르자
 
 3. 다시 인텔리제이로 돌아와서 하단의 실행창에 마지막 줄에 보면 작성한 내용이 출력된 것을 확인할 수 있다.
 <br/><br/>
@@ -487,7 +487,7 @@ public class ArticleController {
 }
 ```
 
-1. 서버를 시작하고, http://localhost:8080/articles/new 로 접속 후, 내용을 입력하고 버튼을 클릭
+1. 서버를 시작하고, <http://localhost:8080/articles/new> 로 접속 후, 내용을 입력하고 버튼을 클릭
 2. 인텔리제이로 돌아와서 하단 실행 창을 확인하면 아래와 같은 결과들이 나와야 한다.
 	1. ArticleForm(title=1111, content=1111) - DTO
 	2. Article(id=null, title=1111, content=1111) - Entity
